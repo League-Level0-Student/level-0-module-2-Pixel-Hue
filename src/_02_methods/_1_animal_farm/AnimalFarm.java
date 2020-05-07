@@ -15,17 +15,17 @@ import javax.swing.JOptionPane;
 public class AnimalFarm {
 	
 	public static void main(String[] args) {
-			
+			int A = 1;
 		/* 1. Ask the user which animal they want, then play the sound of that animal. */			 
-			
+			String A = JOptionPane.showInputDialog("")
 		/* 2. Make it so that the user can keep entering new animals. */
 
-	}
-
+	
+if (A==1){
 	static void playMoo() {
 		playNoise(mooFile);
 	}
-
+}
 	static void playQuack() {
 		playNoise(quackFile);
 	}
